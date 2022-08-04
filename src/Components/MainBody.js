@@ -4,7 +4,9 @@ import Projects from "./Projects";
 import WeeklyLeads from "./WeeklyLeads";
 import ProjectList from "./ProjectList";
 import RecentActivity from "./RecentActivity"
+import TargetArea from "./TargetArea"
 import Add from "./Add";
+import Pending from "./Pending";
 function MainBody () {
     return (
         <div className="mainbody-area">
@@ -18,6 +20,12 @@ function MainBody () {
                 </div>
                 <div className="col-span-3 h-full">
                     <WeeklyLeads />
+                </div>
+                <div className="col-span-7">
+                    <TargetArea />
+                </div>
+                <div className="col-span-3">
+                    <Pending />
                 </div>
                 <div className="col-span-7">
                     <ProjectList />

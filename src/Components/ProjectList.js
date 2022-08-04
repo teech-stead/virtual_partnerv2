@@ -13,11 +13,11 @@ function ProjectList() {
     }
 
     return(
-        <div className="pt-[30px] project-tabel-wrap" onScroll={setHeader}>
+        <div className="pt-[20px] project-tabel-wrap" onScroll={setHeader}>
             <table className="project-tabel">
                 <thead>
                     <tr>
-                        <th className="text-left w-[230px] "> <FeatureHd title="RECENT PROJECTS" /> </th>
+                        <th className="text-left w-[230px] pl-[15px]"> <FeatureHd title="RECENT PROJECTS" /> </th>
                         <th className="" ><FeatureHd title="CREATED" /> </th>
                         <th className="text-left"><FeatureHd title="REPORTER" /> </th>
                         <th className="w-[120px] pr-[40px]"> <FeatureHd title="DUE" /></th>

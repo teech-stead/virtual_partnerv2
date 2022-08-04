@@ -20,11 +20,11 @@ function Projects(){
                </div>
                <div className="col-span-4 col-start-3 mt-[-13px]">
                 <ProjectNumber number="50" color="#FFAAB9" />
-                <FeatureHd title="URGENT" className="text-center mt-2" />
+                <FeatureHd title="URGENT" className="text-center mt-2 mb-00" />
                </div>
                <div className="col-span-4 col-start-7 mt-[-13px]">
                 <ProjectNumber number="50" color="#D79AD7" />
-                <FeatureHd title="COMPLETED" className="text-center mt-2" />
+                <FeatureHd title="COMPLETED" className="text-center mt-2 mb-00" />
                </div>
            </div>
         </div>

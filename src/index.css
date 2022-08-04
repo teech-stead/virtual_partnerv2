@@ -233,7 +233,7 @@ box-shadow: 15px 11px 27px #00000029;
  transform-origin: top;
 } */
 .graph-back {
-  @apply absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[92%] z-10 dark:opacity-30
+  @apply absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-48%] w-[92.5%] z-10 dark:opacity-30
 }
 .recharts-layer.recharts-area-dots circle {
   @apply translate-y-[-7px]
@@ -310,12 +310,62 @@ box-shadow: 15px 11px 27px #00000029;
   @apply text-[#9F9F9F] text-[10px]
 }
 .project-tabel-wrap {
-  @apply max-h-[310px] overflow-auto
+  @apply max-h-[300px] overflow-auto;
 }
-.project-tabel th {
-  position: sticky;
-  top: -30px;
+.project-tabel th{
+  @apply sticky top-[-30px]
 }
 .project-tabel-wrap.active th{
   @apply pt-[20px] pb-[10px] bg-white dark:bg-[#1F2026]
+}
+.project-tabel-wrap::-webkit-scrollbar, .activity-tabel-wrap::-webkit-scrollbar {
+  @apply w-[5px] bg-white dark:bg-black
+}
+.project-tabel-wrap::-webkit-scrollbar-track, .activity-tabel-wrap::-webkit-scrollbar-track {
+  @apply w-[5px] bg-white dark:bg-black rounded-full
+}
+.project-tabel-wrap::-webkit-scrollbar-thumb, .activity-tabel-wrap::-webkit-scrollbar-thumb {
+  @apply w-[5px] bg-gray-300 dark:bg-gray-600 rounded-full
+}
+.activity-tabel-wrap {
+  @apply max-h-[230px] overflow-auto
+}
+.activity-tabel th {
+  @apply sticky top-[0] bg-white dark:bg-black
+} 
+.progress-area > div > div {
+  @apply w-[250px] overflow-hidden;
+  max-height: calc(1px + 125px);
+}
+.base-hd {
+  @apply text-[22px] text-[#3B4C68] font-medium dark:text-dark-normal roboto
+}
+*.mb-00 {
+  @apply mb-0 roboto 
+}
+.progress-wrap {
+  @apply relative
+}
+.hd-lg {
+  @apply text-[30px] text-[#3B4C68] font-bold dark:text-dark-normal roboto text-center
+}
+.meter-text-area {
+  @apply absolute w-full bottom-0 left-0
+}
+*.target-text {
+  @apply text-[19px]
+}
+
+[aria-labelledby="id-218-title"] {
+  display: none !important;
+}
+.donut-wrap {
+  max-height: 180px;
+  overflow: hidden;
+}
+[role="switch"] [aria-label] {
+  @apply fill-black dark:fill-dark-normal !important ;
+}
+.para {
+  @apply text-[10px] text-[#8F9198] dark:text-dark-normal tracking-[0.9px] font-normal
 }
