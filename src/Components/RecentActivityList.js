@@ -15,6 +15,11 @@ function RecentActivityList() {
                 <RecentActivityRow profile="talha.png" userName="Muhammad Talha" userDesignation="Project Manager" time="6:00 PM" month="19 July 2021"/>
                 <RecentActivityRow profile="talha.png" userName="Muhammad Talha" userDesignation="Project Manager" time="6:00 PM" month="19 July 2021" status={true} />
                 <RecentActivityRow profile="talha.png" userName="Muhammad Talha" userDesignation="Project Manager" time="6:00 PM" month="19 July 2021"/>
+                <RecentActivityRow profile="talha.png" userName="Muhammad Talha" userDesignation="Project Manager" time="6:00 PM" month="19 July 2021"/>
+                <RecentActivityRow profile="talha.png" userName="Muhammad Talha" userDesignation="Project Manager" time="6:00 PM" month="19 July 2021"/>
+                <RecentActivityRow profile="talha.png" userName="Muhammad Talha" userDesignation="Project Manager" time="6:00 PM" month="19 July 2021"/>
+                <RecentActivityRow profile="talha.png" userName="Muhammad Talha" userDesignation="Project Manager" time="6:00 PM" month="19 July 2021"/>
+                <RecentActivityRow profile="talha.png" userName="Muhammad Talha" userDesignation="Project Manager" time="6:00 PM" month="19 July 2021"/>
             </tbody>
         </table>
   )
